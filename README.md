@@ -45,7 +45,7 @@ The container simply has an OpenVPN installation and a network interface `tun0` 
 
 Test if it work on your **host**
 
-	curl --socks5 localhost:9050 http://ipinfo.io/
+	curl --socks5-hostname localhost:9050 http://ipinfo.io/
 
 If you can't find `danted` process in the `ps -ef` inside container
 
